@@ -22,7 +22,7 @@
 		
 		<form:form action="${formAction}" method="${requestScope.method}" modelAttribute="contact" cssClass="main">
 			<form:errors>
-				<div class="warning"><form:errors /></div>
+				<div class="warning"></div>
 			</form:errors>
 			
 			<div class="panel grid">
@@ -31,7 +31,7 @@
 					<div class="yui-u">
 						<div><form:input path="firstName" cssClass="short" /></div>
 						<form:errors path="firstName">
-							<div class="errorMessage"><form:errors path="firstName" /></div>
+							<div class="errorMessage"></div>
 						</form:errors>
 					</div>
 				</div>
@@ -40,7 +40,7 @@
 					<div class="yui-u">
 						<div><form:input path="middleInitial" cssClass="short" /></div>
 						<form:errors path="middleInitial">
-							<div class="errorMessage"><form:errors path="middleInitial" /></div>
+							<div class="errorMessage"></div>
 						</form:errors>
 					</div>
 				</div>
@@ -49,7 +49,7 @@
 					<div class="yui-u">
 						<div><form:input path="lastName" cssClass="short" /></div>
 						<form:errors path="lastName">
-							<div class="errorMessage"><form:errors path="lastName" /></div>
+							<div class="errorMessage"></div>
 						</form:errors>
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 					<div class="yui-u">
 						<div><form:input path="email" cssClass="medium" /></div>
 						<form:errors path="email">
-							<div class="errorMessage"><form:errors path="email" /></div>
+							<div class="errorMessage"></div>
 						</form:errors>
 					</div>
 				</div>
